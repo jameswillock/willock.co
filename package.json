@@ -1,0 +1,27 @@
+{
+  "name": "sleepykyoto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niceguyjames/sleepykyoto.git"
+  },
+  "keywords": [],
+  "author": "James Willock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niceguyjames/sleepykyoto/issues"
+  },
+  "homepage": "https://github.com/niceguyjames/sleepykyoto#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.11.0",
+    "pug": "^2.0.3",
+    "sass": "^1.15.3"
+  }
+}
