@@ -15,6 +15,8 @@
 body {
   font: 100%/1.5 $font-ibm-plex-mono, monospace;
   color: $color-grey-darkest;
+  transition: color 0.25s;
+  transition: background-color 0.25s, background-image 0.25s;
 }
 
 ////////////
@@ -28,6 +30,7 @@ body {
 .page {
   padding: 2rem;
   background: $color-white;
+  transition: background-color 0.25s, border-top-color 0.25s;
 }
 
 .contact-info {
@@ -86,6 +89,7 @@ h2 {
   margin: 0;
   font-weight: normal;
   color: $color-pink;
+  transition: color 0.25s;
 }
 
 h3 {
@@ -107,6 +111,7 @@ a {
   color: $color-blue;
   text-decoration: none;
   border-bottom: 1px solid $color-blue;
+  transition: color 0.25s, border-bottom-color 0.25s;
 }
 
 a:link,
@@ -152,7 +157,7 @@ a:focus {
     margin: 3rem auto;
     padding: 4rem;
     background: $color-white;
-    box-shadow: 0.25rem 0.25rem 1rem $color-grey-darker;
+    // box-shadow: 0.25rem 0.25rem 1rem $color-grey-darker;
     border-top: 0.25rem solid $color-pink;
   }
 
