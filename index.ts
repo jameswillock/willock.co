@@ -6,12 +6,12 @@ enum Themes {
 class Theme {
   time: Date;
   theme: Themes;
-  bodyNode: HTMLElement;
+  body: HTMLElement;
 
-  constructor(time: Date, bodyNode: HTMLElement) {
+  constructor(time: Date, body: HTMLElement) {
     this.time = time;
     this.theme = this.defaultTheme();
-    this.bodyNode = bodyNode;
+    this.body = body;
     this.setTheme();
   }
 
@@ -34,21 +34,21 @@ class Theme {
 
   setTheme() {
     if (this.theme === Themes.Day) {
-      this.bodyNode.classList.remove(Themes.Night);
-      this.bodyNode.classList.add(Themes.Day);
+      this.body.classList.remove(Themes.Night);
+      this.body.classList.add(Themes.Day);
     } else {
-      this.bodyNode.classList.remove(Themes.Day);
-      this.bodyNode.classList.add(Themes.Night);
+      this.body.classList.remove(Themes.Day);
+      this.body.classList.add(Themes.Night);
     }
   }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   const time = new Date();
-  const page = document.getElementsByTagName("body")[0];
-  const switcher = document.getElementById("theme-switcher");
+  const page = document.body;
   const theme = new Theme(time, page);
-
+  
+  const switcher = document.getElementById("theme-switcher");
   switcher.addEventListener("click", (event) => {
     event.preventDefault();
     theme.toggleTheme();
