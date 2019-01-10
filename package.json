@@ -1,8 +1,8 @@
 {
-  "name": "sleepykyoto",
+  "name": "willock.co",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Curriculum vitae for James Willock",
+  "main": "index.ts",
   "scripts": {
     "test": "mocha --reporter spec --require ts-node/register --require jsdom-global/register ./ts/*.test.ts",
     "deploy": "gh-pages -d dist",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/niceguyjames/sleepykyoto.git"
+    "url": "git+https://github.com/jameswillock/willock.co..git"
   },
   "keywords": [],
   "author": "James Willock",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/niceguyjames/sleepykyoto/issues"
+    "url": "https://github.com/jameswillock/willock.co/issues"
   },
-  "homepage": "https://github.com/niceguyjames/sleepykyoto#readme",
+  "homepage": "https://github.com/jameswillock/willock.co/issues#readme",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
