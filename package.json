@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist",
     "dev": "parcel index.pug",
-    "build": "parcel build index.pug --public-url ./"
+    "build": "rm -rf dist/* && parcel build index.pug --public-url ./ && cp CNAME dist/CNAME && cp keybase.txt dist/keybase.txt"
   },
   "repository": {
     "type": "git",

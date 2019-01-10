@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jameswillock
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.willock.co
+  * I am jameswillock (https://keybase.io/jameswillock) on keybase.
+  * I have a public key ASDMZ26RjcztdW3litfumIluVKj6COZpS5BSCTTvWi6D9wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cc676e918dcced756de58ad7ee98896e54a8fa08e6694b90520934ef5a2e83f70a",
+      "host": "keybase.io",
+      "kid": "0120cc676e918dcced756de58ad7ee98896e54a8fa08e6694b90520934ef5a2e83f70a",
+      "uid": "00ec79b1d83a04579d90b86f083fea19",
+      "username": "jameswillock"
+    },
+    "merkle_root": {
+      "ctime": 1547118360,
+      "hash": "1f90bdb0d64c9b8f86ee09e4973a16a0f96e0983b067109ae336df4050460870324dee6c1835fdcf0aa3a50d8b320b8ad165eb08efc17d0574e5e77e0a2619f7",
+      "hash_meta": "457f2c5933a4d38387f69513025622b9b6e5a0ff159b286858a46225ef500794",
+      "seqno": 4302606
+    },
+    "service": {
+      "entropy": "6YH5pdnoBSsc21Tl3JYY4+l5",
+      "hostname": "www.willock.co",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.6"
+  },
+  "ctime": 1547118375,
+  "expire_in": 504576000,
+  "prev": "961eb52d8db65054176315b1cacdac5ef0b12c6de19821aac1abb7e0d4d0f18e",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzGdukY3M7XVt5YrX7piJblSo+gjmaUuQUgk071oug/cKp3BheWxvYWTESpcCCsQglh61LY22UFQXYxWxys2sXvCxLG3hmCGqwau34NTQ8Y7EIOc6MO9ImwPE1oaKZ+thhnG+zi1qpylbKYT7vx2dV3RIAgHCo3NpZ8RAjkfpJIeDz0aO19gpvUOHmhNyNwDgv90luPe5agxoJT4JXbQnoOZWrwUQ6QeOdPP3Ctz70eQr98PGzVWICaerDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMaq+RaA7CkF/mL1lUNcGdkN1T3dwf54t+O0D9hUady9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jameswillock
+
+==================================================================
