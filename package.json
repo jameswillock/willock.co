@@ -5,6 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "mocha --reporter spec --require ts-node/register --require jsdom-global/register ./ts/*.test.ts",
+    "eslint": "eslint . --format table --ext .js,.jsx,.ts,.tsx",
     "deploy": "gh-pages -d dist",
     "dev": "parcel index.pug",
     "build": "rm -rf dist/* && parcel build index.pug --public-url ./ && cp CNAME dist/CNAME && cp keybase.txt dist/keybase.txt"
@@ -23,6 +24,8 @@
   "devDependencies": {
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
     "chai": "^4.2.0",
     "eslint": "^7.2.0",
     "gh-pages": "^3.0.0",

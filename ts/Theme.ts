@@ -12,13 +12,13 @@ export default class Theme {
     this.setTheme();
   }
 
-  defaultTheme() {
+  defaultTheme(): Themes.Night | Themes.Day {
     const hour = this.time.getHours();
     if (hour > 6 && hour < 20) return Themes.Day;
     return Themes.Night;
   }
 
-  toggleTheme() {
+  toggleTheme(): Themes.Night | Themes.Day {
     if (this.theme === Themes.Day) {
       this.theme = Themes.Night;
     } else {
@@ -29,7 +29,7 @@ export default class Theme {
     return this.theme;
   }
 
-  setTheme() {
+  setTheme(): void {
     if (this.theme === Themes.Day) {
       this.body.classList.remove(Themes.Night);
       this.body.classList.add(Themes.Day);
