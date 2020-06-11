@@ -1,1 +1,3 @@
-[![CircleCI](https://circleci.com/gh/jameswillock/willock.co.svg?style=svg)](https://circleci.com/gh/jameswillock/willock.co)
+![Tests](https://github.com/jameswillock/willock.co/workflows/Tests/badge.svg)
+
+willock.co – CV site for James Willock
